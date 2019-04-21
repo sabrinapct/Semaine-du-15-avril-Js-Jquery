@@ -1,0 +1,25 @@
+#cadre {
+    height: 400px;
+    width: 800px;
+    border: 1px;
+    background-color: rebeccapurple;
+}
+
+#cadre > div {
+    margin: 1px;
+  }
+
+  .rouge{
+      background-color: red;
+    }
+  .bleu{
+      background-color: blue;
+    }
+  .jaune {
+      background-color: yellow;
+    }
+  .vert {
+      background-color: green;
+    }
+
+    
