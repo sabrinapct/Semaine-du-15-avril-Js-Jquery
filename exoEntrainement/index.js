@@ -65,13 +65,6 @@ $(function () {
        $(this).css('transition-delay', '2s').css('background','red');  //fonction qui ajoute un delay de 2sec sur le changement de css
    })
 
-
-
-   /**
-    * function qui au double click et au chargement des div, compte sur le double click l'attribut class
-    * et le stock dans count ensuite je concatene le nombre de class sur la longueur
-    * la function dialog doit se remplir dans une div vide pour l'affichage
-    */
    $('#cadre').on('dblclick',"div", function() {
        var color = $(this).attr('class')
        var count = $("."+color).length                          
