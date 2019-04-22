@@ -1,0 +1,12 @@
+{
+  "name": "jq-bienvenue-master",
+  "version": "1.0.0",
+  "description": "Récuperez les valeurs des champs du formulaire et en faire un joli objet qui sera affiché dans la console.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
